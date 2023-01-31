@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@media screen and (max-width:460px) {
+    #redes-sociais{
+        display: block!important;
+        text-align: center;
+    }
+    #redes-sociais>a>img{
+        padding: 0 5px;
+    }
+}
 
 * {
     margin:0;
@@ -10,6 +19,7 @@ html, body{
     height: 100vh;
     width:100vw;
     background-color: black;
+    
 }
 
 body{
@@ -64,3 +74,5 @@ section#redes-sociais img:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
     transition: transform .8s, border .6s;
 }
+
+
